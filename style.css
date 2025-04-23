@@ -1894,21 +1894,21 @@ figcaption {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    border-radius: 8px;
+    border: 1px solid #999;
 }
 
 .icon-description-table th,
 .icon-description-table td {
     padding: 12px;
     text-align: left;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #999;
     vertical-align: middle;
 }
 
 .icon-description-table th {
-    background: #f8f9fa;
     font-weight: 600;
     color: #333;
+    border-bottom: 2px solid #999;
 }
 
 .icon-description-table td img {
