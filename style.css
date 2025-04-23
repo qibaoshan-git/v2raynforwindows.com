@@ -1888,3 +1888,68 @@ figcaption {
 .download-list-table td:last-child {
     width: 70%;
 }
+
+/* 图标描述表格样式 */
+.icon-description-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.icon-description-table th,
+.icon-description-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+    vertical-align: middle;
+}
+
+.icon-description-table th {
+    background: #f8f9fa;
+    font-weight: 600;
+    color: #333;
+}
+
+.icon-description-table td img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-description-table td:first-child {
+    width: 25%;
+    text-align: center;
+}
+
+.icon-description-table td:nth-child(2) {
+    width: 25%;
+    color: #333;
+}
+
+.icon-description-table td:last-child {
+    width: 50%;
+    color: #666;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .icon-description-table {
+        margin: 15px -15px;
+        width: calc(100% + 30px);
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    .icon-description-table th,
+    .icon-description-table td {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .icon-description-table td img {
+        width: 80px;
+        height: 80px;
+    }
+}
