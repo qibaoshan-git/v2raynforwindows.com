@@ -5,21 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="2025年最新v2rayn机场优惠码大全，包含魔法门/疾风云/三番云等知名机场的优惠券、折扣码。最高可享65折优惠，每日更新，限时特惠，先到先得！">
     <meta name="keywords" content="机场优惠码,机场优惠活动,机场优惠券,机场促销,机场活动,机场折扣码,魔法门优惠码,疾风云优惠码,三番云优惠码">
-    <meta name="author" content="v2raynforwindows.com">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
     <meta name="revisit-after" content="1 days">
     <meta name="language" content="zh-CN">
-    <meta property="article:published_time" content="2025-04-22">
-    <meta property="article:section" content="优惠活动">
-    <meta property="article:tag" content="机场优惠码">
+    
+    <!-- 核心样式表优先加载 -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- 预加载关键资源 -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/script.js" as="script">
+    <link rel="preload" href="images/v2rayn-logo.webp" as="image" type="image/webp">
+    
+    <!-- 样式表加载失败的回退方案 -->
+    <script>
+        function loadCSS(url) {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = url;
+            link.onerror = function() {
+                // 如果主样式表加载失败，尝试从备用路径加载
+                if(url.includes('css/')) {
+                    var fallbackLink = document.createElement('link');
+                    fallbackLink.rel = 'stylesheet';
+                    fallbackLink.href = url.replace('css/', '');
+                    document.head.appendChild(fallbackLink);
+                }
+            };
+            document.head.appendChild(link);
+        }
+        
+        // 确保核心样式表加载
+        if(!document.querySelector('link[href="css/style.css"]')) {
+            loadCSS('css/style.css');
+        }
+    </script>
     
     <!-- Open Graph tags -->
     <meta property="og:title" content="2025最新机场优惠码|折扣券大全 - 限时特惠65折【每日更新】">
     <meta property="og:description" content="2025年最新机场优惠码大全，包含魔法门/疾风云/三番云等知名机场的优惠券、折扣码。最高可享65折优惠，每日更新，限时特惠！">
     <meta property="og:url" content="https://v2raynforwindows.com/coupon-code/">
     <meta property="og:type" content="article">
-    <meta property="og:image" content="https://v2raynforwindows.com/images/jctj/jichangtuijian.webp">
+    <meta property="og:image" content="images/jctj/jichangtuijian.webp">
     <meta property="og:site_name" content="v2raynforwindows.com">
     <meta property="og:locale" content="zh_CN">
     
@@ -27,7 +56,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="2025最新机场优惠码|折扣券大全 - 限时特惠65折【每日更新】">
     <meta name="twitter:description" content="2025年最新机场优惠码大全，包含魔法门/疾风云/三番云等知名机场的优惠券、折扣码。最高可享65折优惠，每日更新！">
-    <meta name="twitter:image" content="https://v2raynforwindows.com/images/jctj/jichangtuijian.webp">
+    <meta name="twitter:image" content="images/jctj/jichangtuijian.webp">
     <meta name="twitter:site" content="@v2raynforwindows">
     
     <!-- 移动端优化 -->
@@ -35,11 +64,6 @@
     <meta name="theme-color" content="#1a73e8">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    
-    <!-- 预加载关键资源 -->
-    <link rel="preload" href="/style.css" as="style">
-    <link rel="preload" href="/script.js" as="script">
-    <link rel="preload" href="/images/v2rayn-logo.webp" as="image" type="image/webp">
     
     <!-- DNS预解析 -->
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
@@ -49,12 +73,10 @@
     <link rel="preconnect" href="https://v2raynforwindows.com">
     
     <title>2025最新机场优惠码|折扣券大全 - 限时特惠65折【每日更新】</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/webp" href="/images/v2rayn-logo.webp" sizes="60x30">
+    <link rel="icon" type="image/webp" href="images/v2rayn-logo.webp" sizes="60x30">
     <link rel="canonical" href="https://v2raynforwindows.com/coupon-code/">
     <link rel="alternate" hreflang="zh-CN" href="https://v2raynforwindows.com/coupon-code/">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="preload" href="/images/v2rayn-logo.webp" as="image">
+    <link rel="preload" href="images/v2rayn-logo.webp" as="image">
     
     <script type="application/ld+json">
     {
@@ -62,32 +84,16 @@
       "@type": "TechArticle",
       "headline": "2025最新机场优惠码大全 - 限时特惠活动",
       "description": "2025年最新机场优惠码大全，包含魔法门、疾风云、三番云等知名机场的优惠券。最高可享65折优惠，每日更新。",
-      "datePublished": "2025-04-22",
-      "dateModified": "2025-04-22",
       "image": {
         "@type": "ImageObject",
-        "url": "https://v2raynforwindows.com/images/jctj/jichangtuijian.webp",
+        "url": "images/jctj/jichangtuijian.webp",
         "width": "1200",
         "height": "630"
-      },
-      "author": {
-        "@type": "Organization",
-        "name": "v2rayN",
-        "url": "https://v2raynforwindows.com"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "v2rayN",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://v2raynforwindows.com/images/v2rayn-logo.webp"
-        }
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://v2raynforwindows.com/coupon-code/"
-      },
-      "articleSection": ["优惠码列表", "使用教程", "注意事项"]
+      }
     }
     </script>
 
@@ -230,8 +236,8 @@
     <header>
         <div class="header-container">
             <div class="logo">
-                <img src="/images/v2rayn-logo.webp" alt="V2rayN Logo" width="72" height="72">
-                <span>V2rayN</span>
+                <img src="/images/v2rayn-logo.webp" alt="v2rayn Logo" width="60" height="30" loading="eager">
+                <span>v2rayn</span>
             </div>
             <button class="menu-toggle">
                 <span class="menu-icon"></span>
@@ -251,7 +257,7 @@
     </header>
       <div class="breadcrumb-nav">
         <div class="breadcrumb-container">
-            <a href="/">V2rayN</a>
+            <a href="/">v2rayN</a>
             <span class="separator">></span>
             <span class="current">机场优惠码</span>
         </div>
@@ -618,7 +624,7 @@
                         </div>
 
                         <div class="last-updated">
-                            最后更新 2025-04-22
+                            最后更新 2025-04-23
                         </div>
 
                         <div class="share-container">
