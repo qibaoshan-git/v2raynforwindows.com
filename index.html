@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="2025最新v2rayN使用教程，提供详细的安装配置步骤和常见问题解答。包含节点订阅、规则配置、系统代理等核心功能说明。">
+    <meta name="keywords" content="v2rayN,v2rayN教程,v2rayN使用教程v2rayN配置,科学上网">
+    <meta name="author" content="v2raynforwindows.com">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1a73e8">
+    
+    <!-- 预加载关键资源 -->
+    <link rel="preload" href="/css/style.css" as="style">
+    <link rel="preload" href="/js/script.js" as="script">
+    <link rel="preload" href="/images/v2rayn-logo.webp" as="image" type="image/webp">
+    
+    <!-- DNS预解析 -->
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//cdn.staticfile.org">
+    
+    <!-- 预连接 -->
+    <link rel="preconnect" href="https://v2raynforwindows.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="v2rayN使用教程|2025最新配置指南 - Windows/Mac/Linux全平台支持">
+    <meta property="og:description" content="2025最新v2rayN使用教程，提供详细的安装配置步骤，支持多种协议。包含节点订阅、规则配置、系统代理等设置说明，新手也能3分钟上手。">
+    <meta property="og:url" content="https://v2raynforwindows.com/">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://v2raynforwindows.com/images/v2rayn-logo.webp">
+    <meta property="og:site_name" content="v2raynforwindows.com">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="article:published_time" content="2025-04-19">
+    <meta property="article:modified_time" content="2025-04-19">
+    <meta property="article:author" content="v2raynforwindows.com">
+    <meta property="article:section" content="教程">
+    <meta property="article:tag" content="v2rayN教程,配置指南,科学上网">
+    
+    <!-- Twitter Card tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="v2rayN使用教程|2025最新配置指南 - Windows/Mac/Linux全平台支持">
+    <meta name="twitter:description" content="2025最新v2rayN使用教程，提供详细的安装配置步骤，支持多种协议。包含节点订阅、规则配置、系统代理等设置说明。">
+    <meta name="twitter:image" content="https://v2raynforwindows.com/images/v2rayn-logo.webp">
+    <meta name="twitter:site" content="@v2raynforwindows">
+    
+    <title>v2rayN使用教程|2025最新配置指南 - Windows/Mac/Linux全平台支持【图文详解】</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/webp" href="/images/v2rayn-logo.webp" sizes="60x30">
+    <link rel="canonical" href="https://v2raynforwindows.com/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://v2raynforwindows.com/" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["TechArticle", "HowTo"],
+      "headline": "2025最新v2rayn使用教程 - Windows/macOS/Linux全平台配置指南",
+      "description": "详细的v2rayn安装配置教程，包含节点订阅、规则设置、系统代理等多个方面的专业指导。",
+      "datePublished": "2025-04-23",
+      "dateModified": "2025-04-23",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://v2raynforwindows.com/images/v2rayn-logo.webp",
+        "width": "72",
+        "height": "72"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "v2raynforwindows.com",
+        "url": "https://v2raynforwindows.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "v2raynforwindows.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://v2raynforwindows.com/images/v2rayn-logo.webp"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://v2raynforwindows.com/"
+      },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "下载安装",
+          "text": "从官方渠道下载并安装v2rayn",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://v2raynforwindows.com/images/index/download-v2rayn.webp",
+            "width": "800",
+            "height": "400"
+          },
+          "url": "https://v2raynforwindows.com/v2rayn-download/"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "添加配置",
+          "text": "导入节点订阅或配置文件",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://v2raynforwindows.com/images/index/import-config.webp",
+            "width": "800",
+            "height": "400"
+          }
+        },
+        {
+          "@type": "HowToStep",
+          "name": "启用代理",
+          "text": "选择合适节点并开启系统代理",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://v2raynforwindows.com/images/index/enable-proxy.webp",
+            "width": "800",
+            "height": "400"
+          }
+        }
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "v2rayn如何使用？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "下载安装后，导入节点订阅，选择节点并开启系统代理即可使用。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Clash Verge Rev支持哪些系统？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "v2rayn支持Windows、macOS、Linux等主流操作系统。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "如何导入节点订阅？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "点击配置页面的添加按钮，输入订阅地址并保存即可导入节点。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "为什么连接不上网络？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "请检查节点是否可用，系统代理是否开启，以及防火墙设置是否正确。"
+          }
+        }
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+      "name": "v2rayn",
+      "operatingSystem": "Windows, macOS, Linux",
+      "applicationCategory": "NetworkUtility",
+      "description": "基于v2rayn内核的跨平台代理工具",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "268",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "v2rayn",
+        "item": "https://v2raynforwindows.com"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "使用教程",
+        "item": "https://v2raynforwindows.com/"
+      }]
+    }
+    </script>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="https://cdn.staticfile.org/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="/" title="V2rayN">
+                    <img src="/images/v2rayn-logo.webp" alt="v2rayn Logo" width="72" height="72">
+                    <span>V2rayN</span>
+                </a>
+            </div>
+            <button class="menu-toggle" aria-label="菜单">
+                <span class="menu-icon"></span>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="/v2rayn-official/" title="v2rayn官网地址">官网地址</a></li>
+                    <li><a href="/" title="v2rayn使用教程">使用教程</a></li>
+                    <li><a href="/v2rayn-download/" title="下载v2rayn最新版">下载v2rayn</a></li>
+                    <li><a href="/all-proxy-client/" title="代理工具大全">客户端大全</a></li>
+                    <li><a href="/free-node/" title="V2rayU免费节点">免费节点</a></li>
+                    <li><a href="/jichangtuijian/" title="v2rayn机场推荐">机场推荐</a></li>
+                    <li><a href="/coupon-code/" title="v2rayn机场优惠码">机场优惠码</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="breadcrumb-nav">
+        <div class="breadcrumb-container">
+            <a href="/">V2rayN</a>
+            <span class="separator">></span>
+            <span class="current">v2rayn使用教程</span>
+        </div>
+    </div>
+
+    <main>
+        <div class="content-wrapper">
+            <div class="main-content">
+                <article>
+                    <div class="article-header">
+                        <h1>v2rayn使用教程</h1>
+                        <div class="article-meta">
+                            <p>v2rayN是Windows系统下的代理软件客户端，功能强大且支持多种代理协议，如VMess、VLESS、Trojan、Socks、Shadowsocks、Hysteria2、Tuic等代理协议。</p>
+                            <p>通过本教程，您可以快速掌握v2rayn的基本使用技巧，包括如何添加订阅地址、如何选择节点、如何设置系统代理等，让您轻松实现科学上网。</p>
+                        </div>
+                    </div>
+
+                    <div class="featured-banner">
+                        <figure>
+                            <img src="images/index/v2rayn.webp" 
+                                alt="v2rayn使用教程 - 详细配置指南" 
+                                class="banner-img" 
+                                loading="lazy"
+                                decoding="async"
+                                width="800"
+                                height="450">
+                            <figcaption>v2rayn详细使用教程 - 2025最新教程</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="article-content">
+                        <div class="catalog-wrapper">
+                            <button class="catalog-toggle">
+                                <span class="catalog-icon">
+                                    <span></span>
+                                </span>
+                                <span class="catalog-text">目录</span>
+                            </button>
+                            <div class="catalog-container" style="display: none;">
+                                <!-- 目录内容将由 JavaScript 自动生成 -->
+                            </div>
+                        </div>
+                        
+                        <div class="article-section" id="introduction">
+                            <h2>什么是v2rayN？</h2>
+                            <p>v2rayN是一款基于v2ray核心的高性能Windows系统网络工具，支持VMess、VLESS、Trojan、Shadowsocks、Socks等多种协议。作为最受欢迎的v2ray Windows客户端，v2rayN最新版本提供了完整的中文界面，适合新手快速上手使用。</p>
+                            
+                            <h3>v2rayN的主要特点</h3>
+                            <ul>
+                                <li>多协议支持：v2rayN Windows版完美支持VMess、VLESS、Trojan、Shadowsocks(SS)、Socks等主流协议</li>
+                                <li>用户友好界面：v2rayN中文版提供直观的图形用户界面，使配置和管理变得简单</li>
+                                <li>路由规则定制：支持自定义路由规则，实现智能分流，提升网络访问效率</li>
+                                <li>免费开源：v2rayN安装包完全免费，源代码开放，支持社区贡献</li>
+                                <li>多种代理模式：v2rayN配置支持全局模式、PAC模式、规则模式等多种代理方式</li>
+                                <li>订阅功能：支持v2rayN订阅地址导入，一键更新节点</li>
+                                <li>安全稳定：采用v2ray内核，提供安全可靠的网络连接服务</li>
+                            </ul>
+                        </div>
+
+                        <div class="article-section">
+                            <h2>v2rayN的核心优势</h2>
+                            <p>v2rayN具有以下突出特点：</p>
+                            <ul>
+                                <li>多协议支持：v2rayN 支持多种网络协议，这使得它能够灵活应对不同的网络环境和需求。</li>
+                                <li>支持windows、macOS、linux系统安装使用</li>
+                                <li>支持中文界面</li>
+                                <li>用户友好的界面：它提供了一个直观的图形用户界面，使得配置和管理网络连接变得简单。</li>
+                                <li>路由自定义：用户可以自定义路由规则，以优化网络流量和提高连接效率。</li>
+                                <li>免费开源：作为一个开源项目，用户可以免费下载使用，同时也能参与到软件的开发和改进中。</li>
+                                <li>支持模式: 支持规则模式,直连代理模式,全局代理模式</li>
+                               
+                            </ul>
+                        </div>
+
+                        <div class="article-section" id="download">
+                            <h2>v2rayN下载安装教程 - 2025最新图文教程</h2>
+                            <p>v2rayN官网GitHub下载地址：<a href="https://github.com/2dust/v2rayN/releases" title="v2rayN官方下载">v2rayN最新版下载</a>。新手建议下载v2rayN稳定版本，即版本号标记为Latest的安装包。以下是详细的v2rayN安装教程：</p>
+                            <ol>
+                                <li><strong>下载v2rayN</strong>：这里以Windows系统为例，访问v2rayN官方GitHub页面，下载最新版本的<a href="https://github.com/2dust/v2rayN/releases/download/6.52/v2rayN-With-Core.zip">v2rayN.zip安装包</a></li>
+                                <figure>
+                                    <img src="images/index/download-v2rayN.webp" 
+                                        alt="下载v2rayn安装包" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                    <figcaption>下载v2rayn安装包</figcaption>
+                                </figure>
+                                <li>下载完成后，找到合适的目录，推荐安装在非系统盘，解压压缩包，解压后的目录如下图所示,找到v2rayN.exe 文件，双击运行。</li>
+                                <figure>
+                                    <img src="images/index/v2rayn-application.webp" 
+                                        alt="v2rayn安装包解压后" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                    <figcaption>v2rayn安装包解压后</figcaption>
+                                </figure>
+                                <li>有的电脑提示下载.NET 8.0 Desktop，请下载安装</li>
+                                <figure>
+                                    <img src="images/index/install-net.webp" 
+                                        alt="安装.NET 8.0 Desktop" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                    <figcaption>安装.NET 8.0 Desktop</figcaption>
+                                </figure>
+                                <ul>
+                                    <li>6.35以上版本需要 .NET 8.0 <a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">点击下载</a></li>
+                                    <li>6.33及以下版本需要 .NET 6.0 <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">点击下载</a></li>
+                                </ul>
+                                <li>下载后，全部下一步即可安装。
+
+                                    在安装好后，我们回到 V2ray 所在的文件夹。单击鼠标右键以管理员身份运行 v2rayN.exe 即可开始使用，程序启动后会最小化到任务右小角的托盘，鼠标双击蓝色的 V 字小图标，即可打开软件的主界面。</li>
+                                <figure>
+                                    <img src="images/index/v2rayn-interface.webp" 
+                                        alt="v2rayn 软件界面" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">   
+                                    <figcaption>v2rayn 软件界面</figcaption>
+                                </figure>
+                                
+                              
+                                       
+                                       
+                                        
+                           
+                            
+
+                            <div class="article-section">
+                                <h3>图标说明</h3>
+                                <p>不同状态下软件的图标颜色是不一样的，参考下表图标颜色说明。                                </p>
+                                <table class="icon-description-table">
+                                    <thead>
+                                        <tr>
+                                            <th width="25%">图标</th>
+                                            <th width="25%">软件状态</th>
+                                            <th width="50%">说明</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="images/index/blue-icon.webp" alt="清除系统代理" width="120" height="120">
+                                            </td>
+                                            <td>清除系统代理</td>
+                                            <td>每次启动 / 重启服务器的时候，该图标表示 windows 系统 (ie) 的代理端口。</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="images/index/red-icon.webp" alt="自动配置系统代理" width="120" height="120">
+                                            </td>
+                                            <td>自动配置系统代理</td>
+                                            <td>每次启动 / 重启服务器的时候，该图标设定 windows 系统 (ie) 的代理端口。</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="images/index/purple-icon.webp" alt="不改变系统代理" width="120" height="120">
+                                            </td>
+                                            <td>不改变系统代理</td>
+                                            <td>每次启动 / 重启服务器的时候，什么都不做，作用是在你设置好系统代理软件的设定的代理。</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="article-section">
+                                <h3>节点</h3>
+                                <p>节点即软件中的服务器。在使用之前，首先需要添加一个v2rayN节点即服务端才能使用代理上网功能。</p>
+                            </div>
+
+                            <div class="article-section">
+                                <h3>免费节点</h3>
+                                <p>由于软件支持 VMess、VLESS、Trojan、Socks、Shadowsocks 等代理协议，如需免费节点可以可以在本站<a href="/free-node/" title="v2rayn免费节点">免费节点</a>栏目获取。</p>
+                            </div>
+
+                            <div class="article-section">
+                                <h3>收费节点</h3>
+                                <p>免费节点资源少或者不稳定的话，建议自行购买收费节点。不知道怎么挑选高速稳定机场加速器的，可以去<a href="/jichangtuijian/" title="v2rayn机场推荐">机场推荐</a>里面挑选一个适合你机场来为你科学上网提供加速服务。</p>
+                            </div>
+
+                            <div class="article-section">
+                                <h3>自己搭建节点</h3>
+                                <p>如果对稳定性要求高且有一定的技术基础，推荐自己搭建节点。速度和稳定性安全性也最好。具体搭建教程可参考下面的链接。</p>
+                                <ul>
+                                    <li><a href="/v2ray-build/" title="V2Ray 搭建 (VMess)">V2Ray 搭建 (VMess)</a></li>
+                                    <li><a href="/xray-build/" title="Xray 搭建 (VLESS)">Xray 搭建 (VLESS)</a></li>
+                                    <li><a href="/trojan-build/" title="Trojan 搭建">Trojan 搭建</a></li>
+                                    <li><a href="/shadowsocks-build/" title="Shadowsocks 搭建 (SS)">Shadowsocks 搭建 (SS)</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="article-section">
+                                <h3>添加服务器</h3>
+                                <p>获取节点服务器信息后，就可以开始添加服务器了。点击软件主界面的服务器，根据不同的节点添加不同的节点服务器。</p>
+                               
+                            </div>
+                        </div>
+
+                        <div class="article-section" id="config">
+                            <h2>v2rayN配置订阅教程</h2>
+                            <h3>v2rayN添加机场订阅<strong>（最常用方式）</strong></h3>
+                            <p>windows电脑想要通过v2rayN软件来访问国外网站，就必须先拥有v2rayN节点或v2rayN机场订阅链接，否则将无法实现挂梯子科学上网。</p>
+                            <p>自己搭建v2rayN节点需要具备一定的网络知识和技术，新手不建议自己搭建节点，可以购买机场订阅使用，省时省力。不知道如何挑选高速稳定机场加速器的，可以去<a href="/jichangtuijian/" title="v2rayN机场推荐">机场推荐</a>里面挑选一个适合你机场来为你科学上网提供加速服务。</p>
+                            <ol>
+                               
+                                <li>一般机场都有一键导入订阅地址的。也可以手动复制订阅粘贴到v2rayN中
+
+                                    以v2board面板机场为例子:点击【一键订阅】–【复制订阅地址】</li>
+                                <figure>
+                                    <img src="images/index/Copy-subscription-address.webp" 
+                                        alt="复制订阅地址" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">   
+                                    <figcaption>复制订阅地址</figcaption>
+                                </figure>
+                                <li>点击软件主界面的订阅，订阅分组设置</li>
+                                <figure>
+                                        <img src="images/index/Subscription-group-settings.webp" 
+                                        alt="订阅分组设置" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                    <figcaption>订阅分组设置</figcaption>
+                                </figure>
+                                <li>在（url）部分粘贴刚刚复制的订阅地址，备注可以随便填，自动更新时间可根据自己的需求设置，比如每30分钟更新一次，点击添加，然后点击确定。</li>
+                                <figure>
+                                        <img src="images/index/Add-subscription.webp" 
+                                        alt="添加订阅" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                    <figcaption>添加订阅</figcaption>
+                                </figure>
+                                <li>添加完成后，点击软件主界面的订阅分组，然后点击更新全部订阅(不通过代理)即可成功使用订阅地址添加节点信息，如下图所示：</li>
+                                <figure>
+                                        <img src="images/index/Update-all-subscriptions.webp" 
+                                        alt="更新全部订阅" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                    <figcaption>更新全部订阅</figcaption>
+                                </figure>
+                                <li>在添加完节点信息后，开启系统代理并选择路由模式，即可开始使用代理服务器上网了，如下面系统代理及路由模式章节所述。
+
+                                    选择节点
+                                    在软件主界面选择任意节点，单击鼠标右键，在弹出的窗口中扎到设为活动服务器即可选择节点，如下图所示，然后开启系统代理即可，也可以选择任意节点，双击鼠标左键选择节点。</li>
+                                <figure>
+                                        <img src="images/index/Select-node.webp" 
+                                        alt="选择节点" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">   
+                                    <figcaption>选择节点</figcaption>
+                                </figure>
+                                <li>按照上面的配置教程配置完服务器（节点）后，需要设置系统代理才能让浏览器支持科学上网功能，在任务栏右下角系统托盘找到软件的图标，在图标上单击鼠标右键，找到系统代理，点击自动配置系统代理，此时软件的图标会标称红色，至此就可以开始使用了，打开 Google 试试能不能访问吧。</li>
+                                <figure>
+                                        <img src="images/index/Set-system-proxy.webp" 
+                                        alt="自动配置系统代理" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">   
+                                    <figcaption>自动配置系统代理</figcaption>
+                                </figure>
+                               
+                            
+                                    
+                            
+                                <div class="article-section">
+                                    <h2>v2rayN其他几种导入节点方式</h2>
+                                   
+                                    <h3>剪贴板导入教程</h3>
+                                    <p>首先复制节点服务器的连接地址，不同协议的地址如下所示。</p>
+                                    <ul>
+                                        <li>VMESS 服务器即 v2Ray 节点地址：vmess://</li>
+                                        <li>VLESS 服务器即 Xray 节点地址：vless://</li>
+                                        <li>Shadowsock 服务器节点地址：ss://</li>
+                                        <li>Socks 服务器节点地址：socks5://</li>
+                                        <li>Trojan 服务器节点地址：trojan://</li>
+                                    </ul>
+                                    <p>单机鼠标右键复制或者使用键盘快捷键 <code>Ctrl+C</code> 复制节点地址，注意一定要复制完全。</p>
+                                    <figure>
+                                        <img src="images/index/Copy-subscription-address-2.webp" 
+                                        alt="从剪贴板导入批量url" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">   
+                                        <figcaption>从剪贴板导入批量url</figcaption>
+                                    </figure>
+                                </div>
+                                 <div class="article-section">
+                                    <h3>扫描二维码导入教程</h3>
+                                    <p>首先打开服务器节点的二维码图片，然后打开软件，点击软件主界面的服务器，选择扫描屏幕上的二维码即可导入节点信息，如下图所示。</p>
+                                    <figure>
+                                        <img src="images/index/Scan-the-QR-code.webp" 
+                                        alt="扫描二维码" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                        <figcaption>扫描二维码</figcaption>
+                                    </figure>  
+                                </div>
+                                <div class="article-section">
+                                    <h3>配置 V2Ray 节点  </h3>
+                                    <p>点击软件主界面的服务器，选择 添加[VMess]服务器，如下图所示。</p>
+                                    <figure>
+                                        <img src="images/index/Add-VMess-server.webp" 
+                                        alt="添加VMess服务器" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                    <figcaption>添加VMess服务器</figcaption>
+                                </figure>
+                                <p>在添加窗口输入 V2Ray 节点信息，即可配置 V2Ray 服务器信息，然后点击确定保存，如下图所示。</p>
+                                <figure>
+                                        <img src="images/index/Configure-V2Ray-node-information.webp" 
+                                        alt="配置V2Ray节点信息" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                    <figcaption>配置V2Ray节点信息</figcaption>
+                                </figure>
+                                <p>配置完成后，点击软件主界面的服务器，选择 设为活动服务器，即可开始使用 V2Ray 节点。</p>
+                                <figure>
+                                    
+                                </figure>
+                                </div>
+
+                                <div class="article-section">
+                                    <h3>配置 Shadowsocks 节点  </h3>
+                                    <p>点击软件主界面的服务器，选择 添加[Shadowsocks]服务器，如下图所示。                                    </p>
+                                    <figure>
+                                        <img src="images/index/Add-Shadowsocks-server.webp" 
+                                        alt="添加Shadowsocks服务器" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                        <figcaption>添加Shadowsocks服务器</figcaption>
+                                    </figure>
+                                    
+                                </div>
+                                <div class="article-section">
+                                    <h3>配置 Socks 节点  </h3>
+                                    <p>点击软件主界面的服务器，选择 添加[Socks]服务器，如下图所示。                                    </p>
+                                    <figure>
+                                        <img src="images/index/Add-Socks-server.webp" 
+                                        alt="添加Socks服务器" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">   
+                                        <figcaption>添加Socks服务器</figcaption>
+                                    </figure>
+                                    <p>在添加窗口输入 Socks 节点信息，即可配置 Socks 服务器信息，然后点击确定保存，如下图所示。
+
+                                    </p>
+                                    <figure>
+                                        <img src="images/index/Configure-Socks-node-information.webp" 
+                                        alt="配置Socks节点信息" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">   
+                                        <figcaption>配置Socks节点信息</figcaption>
+                                    </figure>
+                                </div>
+                                <p>在添加完节点信息后，开启系统代理并选择路由模式，即可开始使用代理服务器上网了，如下面系统代理及路由模式章节所述。                                </p>
+
+                                <div class="article-section">
+                                    <h2>路由模式</h2>
+                                    <p>路由的功能是将入站数据按需求由不同的出站连接发出，以达到按需代理的目的。这一功能的常见用法是分流国内外流量，可以通过内部机制判断不同地区的流量，然后将它们发送到不同的出站代理，有以下三种路由模式可以选择。
+
+                                    </p>
+                                    <ul>
+                                        <li>绕过大陆(Whitelist)模式：即原先版本里的白名单，只是白名单内的网站通过节点服务器代理上网                                        </li>
+                                        <li>黑名单(Blacklist)模式：除了黑名单内的网站，其余网站都通过节点服务器代理上网                                        </li>
+                                        <li>全局(Global)模式：所有网站通过节点服务器代理上网                                        </li>
+                                    </ul>
+                                    <p>根据不同的需求选择合适的路由模式，一般选择白名单模式。                                    </p>
+                                    <figure>
+                                        <img src="images/index/Route-mode.webp" 
+                                        alt="路由模式" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                        <figcaption>路由模式</figcaption>
+                                    </figure>   
+                                </div>
+                                
+                                   
+                                <div class="article-section">
+                                    <h2>设置开机自动启动</h2>
+                                   <p>在点击软件主界面的设置，点击参数设置进入参数设置页面后，选择v2rayN设置标签页，勾选上开机自动启动复选框，然后点击确认，如下图所示。
+
+                                   </p>
+                                   <figure>
+                                        <img src="images/index/Set-auto-start.webp" 
+                                        alt="设置开机自动启动" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                        <figcaption>设置开机自动启动</figcaption>
+                                    </figure>
+
+                                </div>
+                                <div class="article-section">
+                                    <h2>订阅更新</h2>
+                                    <p>在点击软件主界面的订阅，点击更新全部订阅，即可更新订阅地址，如下图所示。</p>
+                                    <figure>
+                                        <img src="images/index/Update-all-subscriptions-2.webp" 
+                                        alt="更新全部订阅" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                        <figcaption>更新全部订阅</figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="article-section">
+                                    <h2>更新内核教程</h2>
+                                    <p>可在线自动更新软件、v2fly-Core、Xray-Core、Geo files，通过点击软件主界面的检查更新进行在线更新，如下图所示。                                    </p>
+                                    <figure>
+                                        <img src="images/index/Update-core.webp" 
+                                        alt="更新内核" 
+                                        class="banner-img" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="800"
+                                        height="450">
+                                        <figcaption>更新内核</figcaption>
+                                    </figure>
+                                </div>
+                                <p>如果超时 ，则说明没成功。
+
+                                    到此，就可以科学上网了，大部分用户也只设置到这步即可。</p>
+                                
+                            </ol>
+                        </div>
+
+                        <div class="article-section">
+                            <h2>常见问题</h2>
+                            <h3>Q: 如何获取V2Ray服务器的节点信息？</h3>
+                            <p>A: 你可以从V2Ray服务提供商或管理员那里获取节点信息。他们通常会提供服务器地址（IP地址或域名）、端口号、传输协议、加密方式等必要信息。请联系他们以获取正确的节点信息。</p>
+
+                            <h3>Q: 如何更新v2rayN的订阅链接？</h3>
+                            <p>A: 在v2rayN主界面的"服务器"选项中，点击"更新订阅"按钮即可。v2rayN将自动从订阅链接下载最新的服务器配置信息并应用到代理设置中。</p>
+
+                            <h3>Q: v2rayN连接不上代理服务器怎么办？</h3>
+                            <p>A: 首先，请确保你输入的节点信息正确无误。检查服务器地址、端口号、传输协议和加密方式是否匹配。还可以尝试更换其他可用的节点，如果问题仍然存在，请联系V2Ray服务提供商或管理员以获取支持。</p>
+
+                            <h3>Q: 如何在v2rayN中配置自定义的代理规则和路由策略？</h3>
+                            <p>A: 在v2rayN主界面中，点击"编辑"按钮，然后选择"编辑配置"。在配置文件中，你可以根据需要修改代理规则和路由策略。请确保你了解V2Ray的配置语法和相关规则，以正确配置自定义设置。</p>
+
+                            <h3>Q: v2rayN支持哪些代理协议和传输方式？</h3>
+                            <p>A: v2rayN支持多种代理协议和传输方式，包括HTTP、HTTPS、WebSocket、TCP、mKCP等。你可以根据需要在节点配置中选择合适的协议和传输方式。</p>
+                        </div>
+
+                        <div class="article-section">
+                            <h2>总结</h2>
+                            <p>V2rayN 是一个代理软件，可以帮助用户科学上网。用户需要下载并安装软件，添加节点服务器信息，设置系统代理和路由模式，然后就可以开始使用代理服务器上网了。</p>
+                            <p>用户还可以选择订阅节点信息，配置不同类型的节点服务器，以及设置开机自动启动功能。</p>
+                            <p>如果您在使用过程中遇到问题，也可以尝试其他类似工具，比如<a href="https://clash-verge-rev/" title="clash-verge-rev">clash-verge-rev</a>，<a href="https://GUI.for.Clash.com/" title="GUI.for.Clash">GUI.for.Clash</a>，<a href="https://hiddify-next.net/" title="Hiddify">Hiddify</a>等。</p>
+                            <p>V2rayN 在安卓手机上叫V2rayNG，如果你使用的是安卓手机，可以参考<a href="https://v2rayngforandroid.com/" title="V2rayNG">V2rayNG</a>教程，或者<a href="https://clash-verge-rev.net/clashmetaforandroid/" title="ClashMetaForAndroid">ClashMetaForAndroid</a>教程。</p>
+                        </div>
+
+                        <div class="related-articles">
+                            <h2>相关推荐</h2>
+                            <ul>
+                                <!-- 文章列表将由 JavaScript 动态生成 -->
+                            </ul>
+                            <div class="disclaimer-box">
+                                <span class="title">声明</span>
+                                <p>本站所分享的教程仅是帮助大家科学上网在Google上查资料做学术研究，和从事跨境电商使用，也可以日常使用，多多学习一些有益的知识，上youtube看看视频，netflix追个剧，刷刷tiktok，看看ins，推特等。<br>
+                                为了净化网络环境，大家请合理使用资源，国家利益和民族团结高于一切！<br>
+                                使用网络时请严格遵守国家法律法规规定，请勿从事色情、暴恐、破坏国家安全等违反国家法律的活动，科学上网，不谈政治，不谈宗教，不碰黄赌毒。<br>
+                                网络不是法外之地，请勿用于非法用途，否则后果自负，本站不承担任何责任。<br>
+                                龙的传人需自律，有损国家利益和民族团结的事情，坚决不做！<br>
+                                望各位珍重！</p>
+                            </div>
+                            <div class="rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span>5/5 - (14 votes)</span>
+                            </div>
+
+                            <div class="last-updated">
+                                最后更新 2025-04-23
+                            </div>
+
+                            <div class="share-container">
+                                <span class="share-text">分享到：</span>
+                                <div class="share-buttons">
+                                    <button class="share-button weixin" title="分享到微信">
+                                        <i class="fab fa-weixin"></i>
+                                        <div id="qrcode"></div>
+                                    </button>
+                                    <button class="share-button facebook" onclick="shareToSocial('facebook')" title="分享到Facebook">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </button>
+                                    <button class="share-button telegram" onclick="shareToSocial('telegram')" title="分享到Telegram">
+                                        <i class="fab fa-telegram-plane"></i>
+                                    </button>
+                                    <button class="share-button twitter" onclick="shareToSocial('twitter')" title="分享到Twitter">
+                                        <i class="fab fa-twitter"></i>
+                                    </button>
+                                    <button class="share-button link" onclick="shareToSocial('copy')" title="复制链接">
+                                        <i class="fas fa-link"></i>
+                                    </button>
+                                </div>
+                                <div id="toast" class="toast">链接已复制到剪贴板</div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <aside class="sidebar">
+                <div class="sidebar-content">
+                    <div class="telegram-box">
+                        <img src="/images/telegram-icon.png" alt="Telegram" class="telegram-icon">
+                        <span>更多资源关注 Telegram 频道</span>
+                    </div>
+
+                    <a href="#" class="action-button primary">
+                        ✈️ 好用的机场节点推荐
+                    </a>
+                    <a href="#" class="action-button secondary">
+                        🎁 福利资源推荐
+                    </a>
+
+                    <div class="sidebar-section">
+                        <h3>新手科学上网教程</h3>
+                        <ul class="sidebar-list">
+                            <li><a href="https://surfboardforandroid.org/">👉安卓手机怎么科学上网？👈</a></li>
+                            <li><a href="https://streisand.org/">👉苹果手机怎么科学上网？👈</a></li>
+                            <li><a href="https://clash-verge-rev.net/">👉Windows电脑怎么科学上网？👈</a></li>
+                            <li><a href="/register-gmail/">👉怎么注册谷歌gmail邮箱？👈</a></li>
+                            <li><a href="/sms-activate/">👉接码平台推荐SMS-Activate👈</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="action-button primary">
+                        Top3科学上网梯子加速器机场推荐
+                    </div>
+
+                    <div class="provider-list">
+                        <a href="https://go.tzfb.top/mofa" class="provider-link">
+                            <div class="provider-content">
+                                <span class="medal">🥇</span>
+                                <div class="provider-info">
+                                    <span class="provider-name">魔法门机场</span>
+                                    <span class="provider-desc">首选高速稳定IPLC专线机场</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="htpps://go.tzfb.top/JFCloud" class="provider-link">
+                            <div class="provider-content">
+                                <span class="medal">🥈</span>
+                                <div class="provider-info">
+                                    <span class="provider-name">疾风云机场</span>
+                                    <span class="provider-desc">老牌机场分站，性价比高</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://go.tzfb.top/3fan" class="provider-link">
+                            <div class="provider-content">
+                                <span class="medal">🥉</span>
+                                <div class="provider-info">
+                                    <span class="provider-name">三番云机场</span>
+                                    <span class="provider-desc">可做备用机场，性价比高</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <button id="back-to-top" class="back-to-top" title="回到顶部">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <p class="copyright">© 2025 v2raynforwindows.com All Rights Reserved. - v2rayn Download</p>
+                <p class="disclaimer">本站提供的所有资源均来源于互联网，版权归原创者所有，本站只负责收集整理，不提供任何资源的破解及下载，不承担任何责任。</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

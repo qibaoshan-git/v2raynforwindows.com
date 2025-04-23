@@ -1,0 +1,84 @@
+# 全局规则
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /404.html
+Allow: /v2rayn-official/
+Allow: /v2rayn-download/
+Allow: /register-gmail/
+Allow: /sms-activate/
+Allow: /all-proxy-client/
+Allow: /free-node/
+Allow: /jichangtuijian/
+Allow: /coupon-code/
+Allow: /images/
+Allow: /style.css
+Disallow: /script.js
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /cgi-bin/
+Disallow: /includes/
+Disallow: /logs/
+Disallow: /cache/
+Crawl-delay: 10
+
+# Google爬虫
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+# Google图片爬虫
+User-agent: Googlebot-Image
+Allow: /images/
+Crawl-delay: 5
+
+# Google移动端爬虫
+User-agent: AdsBot-Google-Mobile
+Allow: /
+Crawl-delay: 5
+
+# Bing爬虫
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
+
+# 百度爬虫
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 5
+
+# 360搜索爬虫
+User-agent: 360Spider
+Allow: /
+Crawl-delay: 5
+
+# 搜狗爬虫
+User-agent: Sogou spider
+Allow: /
+Crawl-delay: 5
+
+# 神马搜索爬虫
+User-agent: YisouSpider
+Allow: /
+Crawl-delay: 5
+
+# Yahoo爬虫
+User-agent: Slurp
+Allow: /
+Crawl-delay: 5
+
+# Yandex爬虫
+User-agent: Yandex
+Allow: /
+Crawl-delay: 5
+
+# DuckDuckGo爬虫
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 5
+
+# Sitemap
+Sitemap: https://v2raynforwindows.com/sitemap.xml 
+
