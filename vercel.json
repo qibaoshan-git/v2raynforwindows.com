@@ -36,6 +36,7 @@
       "src": "/sitemap.xml",
       "dest": "/sitemap.xml",
       "headers": {
+        "content-type": "application/xml",
         "cache-control": "public, max-age=3600"
       }
     },
