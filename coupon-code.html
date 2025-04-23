@@ -19,29 +19,7 @@
     <link rel="preload" href="/script.js" as="script">
     <link rel="preload" href="/images/v2rayn-logo.webp" as="image" type="image/webp">
     
-    <!-- 样式表加载失败的回退方案 -->
-    <script>
-        function loadCSS(url) {
-            var link = document.createElement('link');
-            link.rel = 'stylesheet';
-            link.href = url;
-            link.onerror = function() {
-                // 如果主样式表加载失败，尝试从备用路径加载
-                if(url.includes('css/')) {
-                    var fallbackLink = document.createElement('link');
-                    fallbackLink.rel = 'stylesheet';
-                    fallbackLink.href = url.replace('css/', '');
-                    document.head.appendChild(fallbackLink);
-                }
-            };
-            document.head.appendChild(link);
-        }
-        
-        // 确保核心样式表加载
-        if(!document.querySelector('link[href="/style.css"]')) {
-            loadCSS('/style.css');
-        }
-    </script>
+
     
     <!-- Open Graph tags -->
     <meta property="og:title" content="2025最新机场优惠码|折扣券大全 - 限时特惠65折【每日更新】">
