@@ -11,6 +11,7 @@ Allow: /all-proxy-client/
 Allow: /free-node/
 Allow: /jichangtuijian/
 Allow: /coupon-code/
+Allow: /facebook/
 Allow: /images/
 Allow: /style.css
 Disallow: /script.js
