@@ -229,7 +229,7 @@ main {
     max-height: calc(100vh - 90px);
     overflow-y: auto;
     margin-bottom: 20px;
-    width: 340px;
+    width: 360px;
 }
 
 .sidebar-content {
