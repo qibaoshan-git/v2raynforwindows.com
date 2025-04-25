@@ -104,7 +104,7 @@ main {
 
 .content-wrapper {
     display: grid;
-    grid-template-columns: 1fr 320px;
+    grid-template-columns: 1fr 360px;
     gap: 20px;
     min-height: 100vh;
     position: relative;
